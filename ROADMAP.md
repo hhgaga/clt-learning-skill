@@ -7,7 +7,7 @@ Public roadmap for `hhgaga/clt-learning-skill`. Versions follow semver.
 - SKILL.md + 6 reference files (effects-catalog, decision-trees, review-checklist, learner-side-strategies, caveats, sources)
 - MIT license, README, CHANGELOG, CONTRIBUTING
 - 3 example outputs (GENERATE / REVIEW / DIAGNOSE)
-- Distributed as a project-level Claude Code skill (`.claude/skills/clt-learning-skill/`)
+- Distributed as a project-level skill (`.claude/skills/clt-learning-skill/`)
 
 ## v0.2.0 — Examples & evals
 
@@ -31,7 +31,7 @@ Public roadmap for `hhgaga/clt-learning-skill`. Versions follow semver.
 ## v1.0.0 — Stable
 
 - Frozen SKILL.md trigger description (only patch-level edits after this)
-- Documented compatibility with specific Claude Code versions
+- Documented compatibility with specific agent-harness versions
 - A second-party review (someone other than the author) of the effects catalog against primary literature
 
 ## Sibling repo (separate, public)
@@ -41,5 +41,5 @@ Public roadmap for `hhgaga/clt-learning-skill`. Versions follow semver.
 ## Out of scope
 
 - Bundling LLM-generated study materials (this is a skill, not a content library).
-- Anything that requires running code inside the skill — Claude Code skills are prompts + references, not executables.
+- Anything that requires running code inside the skill — skills are prompts + references, not executables.
 - Validation claims beyond "structured heuristic distilled from primary literature." Empirical validation for AI-mediated learning is an open research question; see `references/caveats.md`.
